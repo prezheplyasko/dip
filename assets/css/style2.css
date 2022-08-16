@@ -1,0 +1,502 @@
+
+.cat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px;
+    text-decoration: none;
+}
+.common{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.list {
+    width: 200px;
+    height: 200px;
+}
+.list-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+.nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.nav-link {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+}
+.nav-link:hover
+{
+    text-decoration: underline;
+}
+.main {
+    width: 20%;
+}
+.main-img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+
+
+}
+
+.main-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+}
+.footer-nav-item {
+    margin-bottom: 20px;
+}
+.footer-nav-link {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+
+}
+.footer-nav-item :hover {
+    text-decoration: underline;
+}
+.sm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.feedback-field {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.fa-brands{
+    font-size: 35px;
+    color: white;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+.grid-card {
+    background-color: maroon;
+}
+.good-card {
+    margin-bottom: 50px;
+}
+
+.card-header {
+    font-family: sans-serif;
+    font-size: xx-large;
+}
+.card {
+    margin-top: 70px;
+    margin-bottom: 50px;
+
+}
+.card-footer {
+    width: 200px;
+    height: 200px;
+}
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.owl-stage-outer {
+    height: 400px;
+}
+
+.main-car{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+#row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#row-item{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.detail-item{
+    width: 100px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.cart-btn {
+    width: 100%;
+    height: 50px;
+    background-color: maroon;
+    color: white;
+    font-family: sans-serif;
+    font-size: 11px;
+    border-color: maroon;
+    border-radius: 5px;
+    box-shadow: 3px 3px 1px black;
+}
+.cart-btn:hover{
+    box-shadow: 3px 3px 1px gray;
+}
+.card-title {
+    font-size: xxx-large;
+    font-family: sans-serif;
+    color: maroon;
+}
+.cart-submit{
+    margin-left: 50%;
+    margin-bottom: 50px;
+    border-radius: 5px;
+
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    box-shadow: 3px 3px 1px gray;
+}
+.cart-submit:hover{
+    height: 35px;
+    background-color: maroon;
+    color: #FFFFFF;
+    border-color: maroon;
+    font-family: sans-serif;
+}
+
+
+.stepper {
+    height: 30px;
+    border-color: maroon;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2vw;
+    margin-bottom: 50px;
+}
+.grid-item {
+    border-style:solid;
+    border-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+
+    text-decoration: none;
+}
+.good-link {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+}
+.form-form{
+    border-style: solid;
+    margin-bottom: 100px;
+
+}
+
+.grid-item:hover{
+    border-color: black;
+}
+.item-item{
+    margin-bottom: 20px;
+}
+
+
+.cat-list{
+    text-decoration: none;
+    color: maroon;
+}
+.cat-link{
+    text-decoration: none;
+    color: maroon;
+    font-family: sans-serif;
+}
+
+.cat-link:hover{
+    font-weight: bold;
+
+}
+
+.fa-solid {
+    color: maroon;
+    font-size: xxx-large;
+}
+.about-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px lightgray;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 70px;
+    margin-left: 100px;
+}
+
+.header{
+    width: max-content;
+    right: 50%;
+
+    font-family: sans-serif;
+    font-size: x-large;
+    margin-bottom: 30px;
+}
+.about-text {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.form-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.btn-reg{
+    margin: 40px;
+    height: 30px;
+    color: white;
+    background-color: maroon;
+    border-radius: 5px;
+    border-color: maroon;
+}
+.btn-reg:hover{
+    font-weight: bold;
+    box-shadow: 3px 3px 1px gray;
+}
+
+.label{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.form-group{
+    margin-bottom: 30px;
+}
+.about-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px lightgray;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 70px;
+    margin-left: 100px;
+}
+.delivery{
+    width: 50%;
+    height: 50%;
+}
+
+.company-info{
+    margin-bottom: 100px;
+}
+.header{
+    width: max-content;
+    right: 50%;
+
+    font-family: sans-serif;
+    font-size: x-large;
+    margin-bottom: 30px;
+}
+#mi {
+    color: black;
+
+}
+#mi:hover{
+    text-decoration: underline;
+}
+#mi-cat {
+    color: maroon;
+    font-size: 18px;
+}
+#mi-cat:hover{
+    font-size: 19px;
+    font-weight: bold;
+}.delivery{
+     width: 30%;
+     height: 30%;
+     margin-bottom: 20px;
+ }
+
+.company-info{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+.comp-title {
+    font-size: xxx-large;
+    margin-bottom: 40px;
+}
+.comp-img {
+    width: 70%;
+}
+.comp-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.btn-reg{
+    margin: 40px;
+    height: 30px;
+    color: white;
+    background-color: maroon;
+    border-radius: 5px;
+    border-color: maroon;
+}
+.btn-reg:hover{
+    font-weight: bold;
+    box-shadow: 3px 3px 1px gray;
+}
+.good-card {
+    width: 70%;
+    margin-left: 30px;
+}
+.card-footer{
+    width: 50%;
+    height: 50%;
+}
+.feedback-button{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: white;
+    font-family: sans-serif;
+    border-radius: 5px;
+
+}
+.feedback-field{
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.feed-wrap {
+    width: 50%;
+    margin-left: 33%;
+}
+
+.btn-reg{
+    width: 25%;
+    height: 30px;
+    margin-left: 180px;
+    color: white;
+    background-color: maroon;
+    border-radius: 5px;
+    border-color: maroon;
+}
+.btn-reg:hover{
+    font-weight: bold;
+    box-shadow: 3px 3px 1px gray;
+}
+.sm {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main-feed {
+    margin-right: 20px;
+}
+.feedback-button{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: white;
+    font-family: sans-serif;
+    border-radius: 5px;
+
+}
+.feedback-field{
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.form__error {
+    color: red;
+    text-align: left;
+    font-size: 12px;
+
+    margin-top: 3px;
+    display: none;
+}
+.form-form input {
+    outline: none;
+    display: block;
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+input:valid:not(:placeholder-shown) {
+    border-color: green;
+}
+
+input:invalid:not(:placeholder-shown) {
+    border-color: red;
+}
+input:invalid:not(:placeholder-shown) + .form__error {
+    display: block;
+}
+
+#reg-form {
+    width: 50%;
+}

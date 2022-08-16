@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="/assets/js/form.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="item">jh</div>
+    <div class="item">jh</div>
+
+</div>
+<div class="ad"></div>
+
+<form id="reg-form" method="POST">
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email</label>
+        <input class="form-control" name="exampleInputEmail1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите Email">
+
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputName" class="form-label">Имя</label>
+        <input  class="form-control" name="exampleInputName" id="exampleInputName">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputLast" class="form-label">Фамилия</label>
+        <input  class="form-control" name="exampleInputLast" id="exampleInputLast">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Пароль</label>
+        <input  class="form-control" name="exampleInputPassword1" id="exampleInputPassword1" placeholder="Придумайте хороший пароль">
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleInputPassword2" class="form-label">Подтверждение Пароля</label>
+        <input  class="form-control" name="exampleInputPassword2" id="exampleInputPassword2" placeholder="Повторите пароль">
+    </div>
+    <div class="g-recaptcha" data-sitekey="6LdfUZ8eAAAAAMmKDgUdOuFwyObzJUXSb4HxWv8m"></div>
+
+    <div class="text-danger" id="recaptchaError"></div>
+
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <button type="submit" class="btn-reg">Зарегистрироваться</button>
+
+    </div>
+
+</form>
+
+</body>
+</html>
